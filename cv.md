@@ -40,3 +40,30 @@ function colourAssociation(array){
   return arrayOfObjects;
 }
 ```
+
+## Education
+
+### University: Belarusian State University of Informatics and Radioelectronics
+
+- Faculty of Engineering and Economics - Digital Marketing
+
+### Courses:
+
+- HTML/CSS interactive course on [GeekBrains](https://gb.ru/)
+- Layout designer basics course on [Hexlet](https://ru.hexlet.io/courses)
+- HTML/CSS/JS intensive courses on [Glo Academy](https://glo.academy/)
+- Some video courses on YouTube
+- RS School Course «JavaScript/Front-end» (in process...)
+
+### Training projects
+
+- [Food delivery](https://github.com/Valeria-7/index_food) (HTML/CSS/JS)
+- [Checkout Page](https://github.com/Valeria-7/DevCh_rwd_6-checkout-page) (HTML/CSS)
+- [Cinema booking page](https://github.com/Valeria-7/cinema) (HTML/CSS/JS)
+- [Clothes shop](https://github.com/Valeria-7/willberries_js) (JS)
+
+## Languages
+
+- Russian: native
+- English: B1
+- Spanish: B2
