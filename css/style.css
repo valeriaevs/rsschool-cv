@@ -2,3 +2,70 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  color: #363636;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.avatar {
+  width: 450px;
+}
+
+.header_display {
+  display: flex;
+}
+
+.header__info  {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.menu {
+  width: 100%;
+  padding: 10px 0;
+  list-style-type: none;
+  background-color: #f2c100;
+}
+
+.menu_display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__link {
+  padding: 0 15px;
+  color: #363636;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+.main-title {
+  font-size: 67px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.main-title_position {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.main-title__subtitle {
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 25px;
+}
