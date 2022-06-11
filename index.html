@@ -4,9 +4,198 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV - Valeryia Yauseyenkava</title>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="container">
+    <header class="header header_display">
+      <img src="img/ava.jpg" alt="avatar" class="avatar">
+      <div class="header__info">
+        <nav class="navigation">
+          <ul class="menu menu_display">
+            <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+            <li class="menu__item"><a href="#about-me" class="menu__link">About me</a></li>
+            <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+            <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
+            <li class="menu__item"><a href="#projects" class="menu__link">Projects</a></li>
+            <li class="menu__item"><a href="#languages" class="menu__link">Languages</a></li>
+          </ul>
+        </nav>
+        <h1 class="main-title main-title_position">Valeryia Yauseyenkava</h1>
+        <h2 class="main-title__subtitle">Junior Front-end Developer</h2>
+      </div>
+    </header>
+    
+    <main class="main">
+      <aside class="sidebar">
+        <section class="contacts" id="contacts">
+          <h4 class="section-title section-title_position_for-first">Contacts</h4>
+          <ul class="contacts-list contacts-list_margin">
+            <li class="contacts-list__item">Location: <br>Minsk, Belarus</li>
+            <li class="contacts-list__item">Phone:
+              <br><a href="tel:+375336327631" class="contacts-list__link">+375336327631</a>
+            </li>
+            <li class="contacts-list__item">Email:
+              <br><a href="mailto:evseenkovavaleria2001@mail.ru" class="contacts-list__link">evseenkovavaleria2001@mail.ru</a>
+            </li>
+            <li class="contacts-list__item">Telegram:
+              <br><a href="https://t.me/betelgeus_0704" class="contacts-list__link" target="_blank">betelgeus_0704</a>
+            </li>
+            <li class="contacts-list__item">GitHub:
+              <a href="https://github.com/Valeria-7" class="contacts-list__link" target="_blank">Valeria-7</a>
+            </li>
+          </ul>
+        </section>
+        <section class="skills" id="skills">
+          <h4 class="section-title section-title_position">Skills</h4>
+          <ul class="skills-list skills-list_margin">
+            <li class="skills-list__item">HTML5, CSS3</li>
+            <li class="skills-list__item">JavaScript Basics</li>
+            <li class="skills-list__item">Git, GitHub</li>
+            <li class="skills-list__item">Figma</li>
+          </ul>
+        </section>
+        <section class="languages" id="languages">
+          <h4 class="section-title section-title_position">Languages</h4>
+          <ul class="languages-list languages-list_margin">
+            <li class="languages-list__item">Russian: native</li>
+            <li class="languages-list__item">English: B1 (Intermediate)</li>
+            <li class="languages-list__item">Spanish: B2</li>
+          </ul>
+        </section>
+      </aside>
+      <div class="main-content">
+        <section class="about-me" id="about-me">
+          <h4 class="section-title section-title_style_light">About Me</h4>
+          <p class="about-me__text about-me__text_position">
+            I am a fourth-year student of BSUIR. I am interested in <b>Web Development</b> and I am able to create simple web pages. I use
+            free resources for self-education. I am going to learn new skills that will be enough for employment in a company.
+          </p>
+        </section>
+        <section class="education" id="education">
+          <h4 class="section-title section-title_position section-title_style_light">Education</h4>
+          <div class="education__content">
+            <h5 class="education__subtitle">University:</h5>
+            <p class="education__text">
+              <b>Belarusian State University of Informatics and Radioelectronics</b>
+              <br>Faculty of Engineering and Economics - Digital Marketing
+            </p>
+            <h5 class="education__subtitle">Courses:</h5>
+            <ul class="courses-list">
+              <li class="courses-list__item">HTML/CSS interactive course on <a href="https://gb.ru/"
+                  class="courses-list__link" target="_blank">GeekBrains</a></li>
+              <li class="courses-list__item">Layout designer basics course on <a href="https://ru.hexlet.io/courses"
+                  class="courses-list__link" target="_blank">Hexlet</a></li>
+              <li class="courses-list__item">HTML/CSS/JS intensive courses on <a href="https://glo.academy/"
+                  class="courses-list__link" target="_blank">Glo Academy</a></li>
+              <li class="courses-list__item">Some video courses on YouTube</li>
+              <li class="courses-list__item">RS School Course «JavaScript/Front-end» (in process…)</li>
+            </ul>
+          </div>
+        </section>
+        <section class="code-example"> 
+          <h4 class="section-title section-title_position section-title_style_light">Code example</h4>
+          <p class="code-example__text">
+            <b>Colour Association KATA from CODEWARS:</b> You are given a 2D array, composed of a colour and its 'common' association in
+            each array element. The function you will write needs to return the colour as 'key' and association as its 'value'.
+          </p>
+          <pre>
+            <code class="language-javascript">
+            function colourAssociation(array){
+              let arrayOfObjects = [];
+              
+              for (let i = 0; i &lt; array.length; i++) { 
+                let myObj={}; 
+                myObj[array[i][0]]=array[i][1]; 
+                arrayOfObjects.push(myObj); 
+              }
+              return arrayOfObjects; 
+            }
+            </code>
+          </pre>
+        </section>
+        <section class="projects" id="projects">
+          <h4 class="section-title section-title_position section-title_style_light">Projects</h4>
+          <div class="project-cards">
+            <a href="https://github.com/Valeria-7/index_food" class="project-card" target="_blank">
+              <img src="img/index-food.png" alt="project preview" class="project-card__image">
+              <div class="project-card__info">
+                <span class="project-card__name">Food delivery</span>
+                <span class="project-card__technology">HTML/CSS/JS</span>
+              </div>
+            </a>
+            <a href="https://github.com/Valeria-7/DevCh_rwd_6-checkout-page" class="project-card" target="_blank">
+              <img src="img/checkout-page.png" alt="project preview" class="project-card__image">
+              <div class="project-card__info">
+                <span class="project-card__name">Checkout Page</span>
+                <span class="project-card__technology">HTML/CSS</span>
+              </div>
+            </a>
+            <a href="https://github.com/Valeria-7/cinema" class="project-card" target="_blank">
+              <img src="img/cinema.png" alt="project preview" class="project-card__image">
+              <div class="project-card__info">
+                <span class="project-card__name">Cinema booking page</span>
+                <span class="project-card__technology">HTML/CSS/JS</span>
+              </div>
+            </a>
+            <a href="https://github.com/Valeria-7/willberries_js" class="project-card" target="_blank">
+              <img src="img/clothes-shop.png" alt="project preview" class="project-card__image">
+              <div class="project-card__info">
+                <span class="project-card__name">Clothes shop</span>
+                <span class="project-card__technology">JS</span>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/Valeria-7" class="github" target="_blank">
+        <img src="img/github.png" class="github__logo" alt="github logo">
+        <span class="github__name">Valeria-7</span>
+      </a>
+      <span class="year">&copy; 2022</span>
+      <a href="https://rs.school/js-stage0/" class="course-logo" target="_blank">
+        <img src="img/rsschool.svg" class="course-logo__image" alt="rsschool logo">
+      </a>
+    </footer>
+  </div>
   
+  <script>
+    console.log(`
+    Score: 120/120
+
+    студент засабмитил в rs app ссылку на своё CV, задеплоенное на gh-pages (10/10)
+    вёрстка валидная (10/10)
+    вёрстка семантическая (20/20)
+      В коде странице присутствуют и используются по назначению следующие элементы:
+        header, main, footer (5/5)
+        элемент nav (5/5)
+        только один заголовок h1 (5/5)
+        заголовки h2 (5/5)
+    в footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс (10/10)
+    для оформления СV используются css-стили (10/10)
+    при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону (10/10)
+    на странице СV есть фото или аватарка автора, пропорции изображения не искажены, у изображения есть атрибут alt (10/10)
+    навигация, контакты для связи и перечень навыков оформлены в виде списка ul > li или ul > li > a (10/10)
+    Содержание CV (30/30)
+      CV содержит:
+        краткую информацию о себе (5/5)
+        контакты для связи (5/5)
+        перечень навыков (5/5)
+        пример кода. Код добавляется при помощи символов и тегов, а не картинкой (5/5)
+        перечень выполненных учебных проектов со ссылками на исходный код или страницу приложения (5/5)
+        информацию об образовании и уровне английского (5/5)
+    CV выполнено на английском языке (10/10)
+    `);
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
