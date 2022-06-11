@@ -86,7 +86,6 @@ body {
 }
 
 .section-title {
-  
   padding-left: 30px;
   font-size: 25px;
   letter-spacing: 2px;
@@ -219,6 +218,11 @@ body {
   color: #f2c100;
 }
 
+.code-example__text {
+  font-size: 16px;
+  margin: 30px 40px;
+}
+
 .project-cards {
   display: flex;
   flex-wrap: wrap;
@@ -285,8 +289,6 @@ body {
   text-decoration: none;
   
 }
-
-
 
 .github__logo {
   margin-right: 10px;
