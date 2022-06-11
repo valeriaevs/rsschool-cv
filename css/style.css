@@ -270,4 +270,41 @@ body {
   justify-content: space-between;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: #363636;
+  background-color: #ebebeb;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  
+}
+
+
+
+.github__logo {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.github__name {
+  color: #363636;
+  transition: .3s;
+  
+}
+
+.github:hover .github__name {
+  color: #f2c100;
+}
+
+.course-logo {
+  display: block;
+  width: 100px;
+}
 
