@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #363636;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.avatar {
+  width: 450px;
+}
+
+.header_display {
+  display: flex;
+}
+
+.header__info  {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.menu {
+  width: 100%;
+  padding: 10px 0;
+  list-style-type: none;
+  background-color: #f2c100;
+}
+
+.menu_display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__link {
+  padding: 0 15px;
+  color: #363636;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+.main-title {
+  font-size: 67px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.main-title_position {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.main-title__subtitle {
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 450px;
+  padding-top: 50px;
+  color: #fff;
+  background-color: #343945;
+}
+
+.section-title {
+  padding-left: 30px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  background-color: #424753;
+  border-left: #f2c100 solid 30px;
+}
+
+.section-title_style_light {
+  background-color: #ebebeb;
+}
+
+.section-title_position {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-title_position_for-first {
+  margin-bottom: 50px;
+}
+
+.contacts-list {
+  list-style-type: none;
+}
+
+.contacts-list_margin {
+  margin-left: 60px;
+}
+
+.contacts-list__item {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.contacts-list__link {
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.contacts-list__link:hover {
+  color: #f2c100;
+}
+
+.contacts-list {
+  list-style-type: none;
+}
+
+.contacts-list_margin {
+  margin-left: 60px;
+}
+
+.contacts-list__item {
+  margin-bottom: 20px;
+  font-size: 18px; 
+  line-height: 1.5;
+}
+
+.contacts-list__link {
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.contacts-list__link:hover {
+  color: #f2c100;
+}
+
+.skills-list_margin {
+  margin-left: 80px;
+}
+
+.skills-list__item {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.languages-list_margin {
+  margin-left: 75px;
+}
+
+.languages-list__item {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.main-content {
+  width: calc(100% - 450px);
+  padding-bottom: 50px;
+}
+
+.about-me__text {
+  font-size: 19px;
+}
+
+.about-me__text_position {
+  margin: 30px 40px;
+}
+
+.education__content {
+  margin: 0 40px;
+}
+
+.education__subtitle {
+  margin-bottom: 15px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.education__text {
+  margin-bottom: 35px;
+  font-size: 19px;
+}
+
+.courses-list {
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.courses-list__link {
+  color: #363636;
+  transition: .3s;
+}
+
+.courses-list__link:hover {
+  color: #f2c100;
+}
+
+.code-example__text {
+  font-size: 16px;
+  margin: 30px 40px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+  padding: 0 40px;
+}
+
+.project-card {
+  display: block;
+  max-width: 310px;
+  text-decoration: none;
+}
+
+.project-card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+  font-size: 19px;
+  color: #363636;
+}
+
+.project-card__name {
+  font-weight: 600;
+  transition: .3s;
+}
+
+.project-card__technology {
+  font-size: 16px;
+}
+
+.project-card__image {
+  width: 310px;
+  border: 3px solid #ebebeb;
+  transition: .3s;
+}
+
+.project-card:hover .project-card__image {
+  border-color: #f2c100;
+}
+
+.project-card:hover .project-card__name {
+  color: #f2c100;
+}
+
+.project-card__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: #363636;
+  background-color: #ebebeb;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  
+}
+
+.github__logo {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.github__name {
+  color: #363636;
+  transition: .3s;
+  
+}
+
+.github:hover .github__name {
+  color: #f2c100;
+}
+
+.course-logo {
+  display: block;
+  width: 100px;
+}
+
