@@ -1,6 +1,6 @@
 # Valeryia Yauseyenkava
 
-## Junior Frontend Developer
+## Junior / Trainee Frontend Developer
 
 ---
 
@@ -14,12 +14,14 @@
 
 ## About me
 
-I am a fourth-year student of BSUIR. I am interested in **Web Development** and I am able to create simple web pages. I use free resources for self-education. I am going to learn new skills that will be enough for employment in a company.
+I am a fourth-year student of BSUIR. I am interested in **Web Development** and I am able to create simple web applications. I use free resources for self-education. I am going to learn new skills that will be enough for employment in a company.
 
 ## Skills
 
 - HTML5, CSS3
 - JavaScript Basics
+- DOM API
+- LocalStorage
 - Git, GitHub
 - Figma
 
@@ -52,18 +54,17 @@ function colourAssociation(array){
 - HTML/CSS interactive course on [GeekBrains](https://gb.ru/)
 - Layout designer basics course on [Hexlet](https://ru.hexlet.io/courses)
 - HTML/CSS/JS intensive courses on [Glo Academy](https://glo.academy/)
-- Some video courses on YouTube
-- RS School Course «JavaScript/Front-end» (in process...)
+- [RS School Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)
 
 ### Training projects
 
+- [Travel landing page](https://rolling-scopes-school.github.io/valeria-7-JSFEPRESCHOOL2022Q2/travel/) (HTML/CSS/JS)
+- [Momentum analogue](https://valeria-7-momentum.netlify.app/) (JS)
 - [Food delivery](https://github.com/Valeria-7/index_food) (HTML/CSS/JS)
-- [Checkout Page](https://github.com/Valeria-7/DevCh_rwd_6-checkout-page) (HTML/CSS)
 - [Cinema booking page](https://github.com/Valeria-7/cinema) (HTML/CSS/JS)
-- [Clothes shop](https://github.com/Valeria-7/willberries_js) (JS)
 
 ## Languages
 
 - Russian: native
-- English: B1
+- English: B1 (Intermediate)
 - Spanish: B2
