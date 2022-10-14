@@ -19,11 +19,15 @@ I am a fourth-year student of BSUIR. I am interested in **Web Development** and 
 ## Skills
 
 - HTML5, CSS3
+- Flexible Box Layout
+- Grid Layout
+- BEM
 - JavaScript Basics
 - DOM API
 - LocalStorage
 - Git, GitHub
 - Figma
+- Adobe Photoshop
 
 ## Code example
 
