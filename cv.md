@@ -14,7 +14,12 @@
 
 ## About me
 
-I am a fourth-year student of BSUIR. I am interested in **Web Development** and I am able to create simple web applications. I use free resources for self-education. I am going to learn new skills that will be enough for employment in a company.
+Hello! I am a fourth-year student of BSUIR. I am very interested in Web Development and I want to become a good
+professional. **Currently looking for opportunities to start my career.** It is important to me to work with original,
+helpful content.
+
+I am a friendly person and I work well in a team. I am also punctual and responsible, always enthusiastic to learn new
+skills. I like to spend my free time riding horses and learning foreign languages. I also want to travel more, because we live in a so beautiful world!
 
 ## Skills
 
@@ -64,8 +69,8 @@ function colourAssociation(array){
 
 - [Travel landing page](https://rolling-scopes-school.github.io/valeria-7-JSFEPRESCHOOL2022Q2/travel/) (HTML/CSS/JS)
 - [Momentum analogue](https://valeria-7-momentum.netlify.app/) (JS)
-- [Food delivery](https://github.com/Valeria-7/index_food) (HTML/CSS/JS)
-- [Cinema booking page](https://github.com/Valeria-7/cinema) (HTML/CSS/JS)
+- [Food delivery](https://github.com/valeriaevs/index_food) (HTML/CSS/JS)
+- [Cinema booking page](https://github.com/valeriaevs/cinema) (HTML/CSS/JS)
 
 ## Languages
 
