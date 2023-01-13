@@ -122,7 +122,6 @@ body {
 
 .contacts-list__link {
   color: #fff;
-  text-decoration: none;
   transition: .3s;
 }
 
@@ -142,16 +141,6 @@ body {
   margin-bottom: 20px;
   font-size: 18px; 
   line-height: 1.5;
-}
-
-.contacts-list__link {
-  color: #fff;
-  text-decoration: none;
-  transition: .3s;
-}
-
-.contacts-list__link:hover {
-  color: #f2c100;
 }
 
 .skills-list_margin {

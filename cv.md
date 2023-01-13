@@ -24,7 +24,7 @@ I am a fourth-year student of BSUIR. I am interested in **Web Development** and 
 - BEM
 - JavaScript Basics
 - DOM API
-- LocalStorage
+- Web Storage API
 - Git, GitHub
 - Figma
 - Adobe Photoshop
@@ -70,5 +70,5 @@ function colourAssociation(array){
 ## Languages
 
 - Russian: native
-- English: B1 (Intermediate)
-- Spanish: B2
+- English: [Intermediate (CERF: B1)](https://cert.str.by/streamline-certificate/20D885B9A4B49EC5F1F646D434DA891E)
+- Spanish: Upper-Intermediate (CERF: B2)
