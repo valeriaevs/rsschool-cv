@@ -1,5 +1,5 @@
 # rsschool-cv
 
-https://valeria-7.github.io/rsschool-cv/cv
+https://valeriaevs.github.io/rsschool-cv/cv
 
-https://valeria-7.github.io/rsschool-cv/
+https://valeriaevs.github.io/rsschool-cv/
