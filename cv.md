@@ -24,15 +24,14 @@ skills. I like to spend my free time riding horses and learning foreign language
 ## Skills
 
 - HTML5, CSS3
-- Flexible Box Layout
-- Grid Layout
+- Flexbox, Grid
 - BEM
-- JavaScript Basics
+- JavaScript
 - DOM API
 - Web Storage API
+- MySQL
 - Git, GitHub
-- Figma
-- Adobe Photoshop
+- Figma, Photoshop
 
 ## Code example
 
